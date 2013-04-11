@@ -28,6 +28,6 @@ def deploy():
     command += '%(path)s/venv/bin/python manage.py compilemessages; ' % env
     if console.confirm("Run migrations?", default=False):
         command += '%(path)s/venv/bin/python manage.py migrate; ' % env
-        command += '%(path)s/apache2/bin/restart' % env
 
+    command += '%(path)s/apache2/bin/restart' % env
     run(command)
