@@ -3,4 +3,5 @@ south
 ipython
 ipdb
 fabric
+django-debug-toolbar
 
