@@ -8,7 +8,8 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-Run your app:
+I recommend you to create a local_settings.py from local_settings_template.py.  Then run your app:
+
 ```bash
 $ fab runserver
 ```
